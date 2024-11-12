@@ -1,0 +1,219 @@
+/* styling of heading web page  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 2px 2px 10px black; */
+
+
+}
+
+.image {
+    margin-left: 20px;
+}
+
+nav {
+    height: inherit;
+    width: 20%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    line-height: 3;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+
+    height: inherit;
+
+}
+
+nav ul li a {
+    font-size: large;
+    text-decoration: none;
+    align-items: center;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button a{
+    color: black;
+    background-color: gray;
+    border-radius: 100px;
+    padding: 0 20px;
+    font-size: large;
+    margin-right: 50px;
+} */
+/* styling of heading web page  end */
+
+
+
+
+/* body of web page start */
+
+
+
+/* #banner::before{
+    background: #fff none repeat scroll 0 0;
+    height: 100%;
+    top: 68%;
+    content: "";
+    left: 0;
+    position: absolute;
+    -webkit-transform: skewY(170deg);
+    transform: skewY(170deg);
+    width: 100%;
+    z-index: 0;
+} */
+
+
+#banner {
+    background: transparent linear-gradient(to right, #09aeea 0%, #09aeea 100%) repeat scroll 0 0;
+    padding: 50px 0;
+   
+}
+
+#banner .parent-container {
+    display: flex;
+    max-width: 1240px;
+    margin: auto;
+    position: relative;
+}
+
+
+#banner .child1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .child .text-container {
+    padding-right: 100px;
+}
+
+
+
+
+#banner .child1 h1 {
+    color: #fff;
+    font-size: 44px;
+
+    font-family: montserrat, sans-serif
+}
+
+#banner .child1 p {
+    color: #f5f5f5;
+
+    font-size: 19px;
+    margin: 15px 0 30px;
+    line-height: 1.5;
+}
+
+#banner .child .button a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 18px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+    border-radius: 8px;
+    margin-right: 8px;
+    font-family: montserrat, sans-serif;
+
+
+
+}
+
+#banner .child2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#banner .image-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px 0 rgba(207, 15, 15, 0.18);
+}
+
+#banner .child2 .image-container img {
+    width: 550px;
+
+
+}
+/* body of web page end */
+
+
+
+/* start of new body of web page */
+
+
+/* end of new body of web page */
+
+#services h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+   
+}
+
+
+
+.parent-container-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    margin: auto;
+    gap: 20px;
+}
+.child-service-container{
+    width: 250px;
+}
+.child-service-container .icon-container{
+    text-align: center;
+    width: 100%;
+    max-width: 120px;
+    height: 100%;
+    
+    min-height: 120px;
+    margin: 0 auto 20px;
+    border-radius: 80px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.18);
+}
+.child-service-container .icon-container img{
+    max-width: 68px;
+    margin-top: 26px;
+}
+h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+p{
+    text-align: center;
+}
+
